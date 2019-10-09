@@ -41,7 +41,7 @@ export default class App extends React.Component {
                     <h1>A Joke For Everyone!</h1>
                     <div className="container">
                         <button className="butn" onClick={this.handleRandomJoke}>
-                            Random Joke!
+                            Chuck Norris Joke!
                         </button>
                         <h2 className='joke'>{this.state.jokeRandom}</h2>
                     </div>

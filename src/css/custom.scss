@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: rgb(33, 33, 33);
 }
 
 .app{
@@ -10,7 +10,7 @@ body{
 
 .butn{
 	box-shadow: -3px 4px 6px -1px #b0b0b0;
-	background:linear-gradient(to bottom, rgb(92, 101, 101) 5%, #6f6f6f 100%);
+	background:linear-gradient(to bottom, rgb(48, 50, 50) 5%, #6f6f6f 100%);
 	background-color:rgb(79, 106, 106);
 	border-radius:12px;
 	display:inline-block;
@@ -22,10 +22,11 @@ body{
     height: 40px;
     margin-top: 5px;
 	text-decoration:none;
-	text-shadow:0px 0px 0px #283966;
+    text-shadow:0px 0px 0px #283966;
+    outline: 0;
 }
 .butn:hover {
-	background:linear-gradient(to bottom, #989898 5%, #8c8c8c 100%);
+	background:linear-gradient(to bottom, rgb(36, 193, 193) 5%, #8c8c8c 100%);
 	background-color:#c9c9c9;
 }
 .butn:active {
@@ -38,5 +39,5 @@ body{
     padding-top: 10px;
     padding-bottom: 10px;
     margin-bottom: 10px;
-    border-radius: 5px;
+    border-radius: 15px;
 }
