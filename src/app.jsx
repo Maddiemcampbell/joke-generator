@@ -25,7 +25,7 @@ export default class App extends React.Component {
 
     handleRandomJoke() {
         axios
-            .get('http://api.icndb.com/jokes/random/')
+            .get('https://api.icndb.com/jokes/random/')
             .then(response => response.data)
             .then(jokeRandom => {
                 this.setState({
